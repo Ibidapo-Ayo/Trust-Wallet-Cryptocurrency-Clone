@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+.bg-blue{
+    background-color: #0b65c6;
+}
+.jumbotron{
+    background-color: #0b65c6;
+    height: 600px;
+}
+.banner_img{
+    width: 500px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: rgba(221, 217, 217, 0.788);
+}
+.btn-primary1{
+    font-size: 14px;
+    background-color: white !important;
+    color: #0b65c6;
+    border-radius: 8px;
+    height: 30px;
+}
+.btn-primary1:hover{
+    color: #0b65c6;
+    background-color: rgba(221, 217, 217, 0.788) !important;
+}
+
+/* Banner */
+.flex{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.flex-2{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.bannertitle{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: 700;
+}
+.bannertitle_sub{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+.subBannerTitle{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    font-weight: 700;
+    text-align: left;
+}
+.subBannertitle_sub{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+    text-align: left;
+}
+@media screen and (max-width: 1200px){
+    .banner_img{
+        width: 370px;
+    }
+    .flex-2{
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }.bannertitle{
+        font-size: 30px;
+    }
+    .bannertitle_sub{
+        font-size: 15px;
+    }
+    .svgb{
+        margin-top: -200px;
+    }
+    .svgc{
+        margin-top: -150px;
+        margin-bottom: -35px;
+    }
+    .bannerphoneimg{
+        margin-top: -100px;
+    }
+    .jumbotron{
+        height: 850px;
+    }
+    #start-section{
+        margin-top: 20px;
+        text-align: center; 
+    }
+    .display-4{
+        font-size: 30px !important;
+    }
+    .sub-title{
+        font-size: 15px !important;
+    }
+    .you-deserve{
+        margin: 50px auto;
+    }
+    .card-phone{
+        width: 23rem !important;
+    }
+    .subBannerTitle{
+        text-align: center;
+    }
+    .subBannertitle_sub{
+        text-align: center;
+    }
+}
+#start-section{
+    text-align: center;
+    margin-bottom: 150px; 
+    margin-top: 30px;
+}
+.how-it-works{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.fa-credit-card,
+.fa-arrow-right-arrow-left,
+.fa-lock{
+    color: #0b65c6;
+}
+.fa-circle-check{
+    color: green;
+}
+.display-4{
+    font-family: "Montserrat", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.sub-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.list-group-item{
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+}
+
+.downloadbtn{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    padding: 15px;
+    padding-right: 35px;
+    padding-left: 35px;
+    background-color: #0b65c6;
+}
+.card-edited{
+    border: none;
+}
+.card-img-top{
+    width: 200px;
+    margin: 0 auto;
+}
+.card-title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+.jumbotron-fluid{
+    background-color: rgba(127, 255, 212, 0.212);
+    height: 200px;
+}
